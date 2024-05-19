@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+header {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+  
+#logo {
+    width: 10%;
+    max-width: 100px;
+    aspect-ratio: 1/1;
+    padding-right: 20px;
+}
+  
+.heading {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: no-wrap;
+}
+  
+#title {
+    font-size: 32px;
+}
+  
+#subtitle {
+    font-size: 16px;
+    font-weight: 100;
+}
+  
+@media (max-width: 800px) {
+    #title {
+        font-size: 4vw;
+    }
+  
+    #subtitle {
+        font-size: 2vw;
+    }
+}
+  
+.space {
+    width: 10%;
+    max-width: 100px;
+}
+  
+.background {
+    background-color: #e5e5e5;
+    padding: 40px 0 10px 0;
+}
+  
+#img-div {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+  
+#image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    box-shadow: 2px 2px 5px grey;
+    display: block;
+}
+  
+#img-caption {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+@media (max-width: 800px) {
+    * {
+        font-size: 2vw;
+    }
+  
+    h3 {
+        font-size: 2.35vw;
+    }
+}
+  
+section {
+    margin: 20px;
+}
+  
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+  
+h4 {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 900px;
+}
+  
+.info {
+    border-top: 1.5px solid;
+    border-image: linear-gradient(to left, lightgrey 65%, transparent 65%) 100% 1;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+}
+  
+.empty {
+    border: none;
+}
+  
+.align {
+    width: 30%;
+    padding: 0px 10px;
+    border-left: 2.5px solid grey;
+}
+  
+.description {
+    text-align: right;
+    width: 65%;
+}
+  
+@media (max-width: 980px) {
+    h4 {
+        width: 95%;
+    }
+  
+    .info {
+        width: 95%;
+    }
+}
+  
+.acotar {
+    border-left: 2.5px solid #ef4444;
+}
+  
+.acomaf {
+    border-left: 2.5px solid #34d399;
+}
+  
+.acowar {
+    border-left: 2.5px solid #c026d3;
+}
+  
+.acofas {
+    border-left: 2.5px solid #38bdf8;
+}
+  
+.acosf {
+    border-left: 2.5px solid #fb923c;
+}
+  
+.footer {
+    margin: 40px;
+}
+  
+#tribute-link {
+    font-size: 18px;
+}
+  
+@media (max-width: 800px) {
+    #tribute-link {
+        font-size: 2.35vw;
+    }
+}
+  
